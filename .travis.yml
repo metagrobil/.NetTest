@@ -1,10 +1,10 @@
 language: csharp
 solution: TestTravis.sln
 dist: trusty
-token: SONAR_TOKEN
 addons:
   sonarcloud:
     organization: "travcsharp"
+    token: SONAR_TOKEN
 script:
   # other script steps might be done before running the actual analysis
   - sonar-scanner
