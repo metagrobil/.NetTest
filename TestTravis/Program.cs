@@ -10,6 +10,7 @@ namespace TestTravis
     {
         static void Main(string[] args)
         {
+            return;
         }
     }
 }
