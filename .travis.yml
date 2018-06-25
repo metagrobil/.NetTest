@@ -1,0 +1,11 @@
+language: csharp
+solution: TestTravis.sln
+mono : none
+dotnet :
+ - 4.7
+ - 4.6.2
+ - 4.6.1
+ - 4.6
+ - 4.5.2
+ - 3.5
+script: dotnet restore
