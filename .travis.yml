@@ -1,6 +1,7 @@
 language: csharp
 solution: TestTravis.sln
 dist: trusty
+token: SONAR_TOKEN
 addons:
   sonarcloud:
     organization: "travcsharp"
