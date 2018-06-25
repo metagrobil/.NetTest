@@ -1,5 +1,2 @@
 language: csharp
 solution: TestTravis.sln
-mono : none
-dotnet : 4.6.1
-script: dotnet restore
