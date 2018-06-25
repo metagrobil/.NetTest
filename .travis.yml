@@ -1,2 +1,3 @@
 language: csharp
 solution: TestTravis.sln
+mono : 4.6.1
