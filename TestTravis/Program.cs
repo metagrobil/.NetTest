@@ -14,5 +14,10 @@ namespace TestTravis
                 Console.WriteLine("Mes couilles en string");
                 return;
         }
+
+        static void fonctionQuiSertArien()
+        {
+            Console.WriteLine("Tu m'attrapera jamais");
+        }
     }
 }
