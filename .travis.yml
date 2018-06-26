@@ -8,10 +8,4 @@ addons:
       secure: $SONAR_TOKEN 
     github_token:
       secure: $GITHUB_READ_REPO
-branches:
- only:
-  - master
 script:
-  - xbuild /p:Configuration=Release src/NLog.mono.sln
-  - sonar-scanner -Dsonar.login=$SONAR_TOKEN
- 
