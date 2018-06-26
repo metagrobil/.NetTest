@@ -13,6 +13,7 @@ namespace TestTravis
         {
             Console.Write("Class1");
             Console.Write("Class1");
+            File.ReadAllLines("fdfs.txt");
         }
     }
 }
