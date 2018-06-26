@@ -12,6 +12,7 @@ namespace TestTravis
         public Class1()
         {
             Console.Write("Class1");
+            Console.Write("Class1");
         }
     }
 }

@@ -21,7 +21,7 @@ namespace TestTravis
             Console.WriteLine("Tu m'attrapera jamais gros pd de merde");
             Console.WriteLine("Tu m'attrapera jamais gros pd de merde");
         }
-        static void fonctionQuiSertArien2()
+        static int fonctionQuiSertArien2()
         {
             Console.WriteLine("Tu m'attrapera jamais gros pd de merde");
         }
