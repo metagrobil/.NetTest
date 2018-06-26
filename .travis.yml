@@ -9,4 +9,3 @@ addons:
     github_token:
       secure: $GITHUB_READ_REPO
 script:
-  - sonar-scanner
