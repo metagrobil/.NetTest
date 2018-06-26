@@ -19,8 +19,8 @@ namespace TestTravis
 
         static void fonctionQuiSertArien()
         {
-            Console.WriteLine("aaaaaa");
-            Console.WriteLine("aaaaaa");
+            fonctionQuiSertArien();
+            fonctionQuiSertArien();
         }
     }
 }
