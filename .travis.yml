@@ -1,6 +1,11 @@
 language: csharp
 solution: TestTravis.sln
 dist: trusty
+install:
+    - travis_retry nuget restore -source "https://www.nuget.org/api/v2" TestTravis.sln
+script:
+    - xbuild TestTravis.sln
+    - sonar-scanner
 addons:
   sonarcloud:
     organization: "travcsharp"
@@ -8,8 +13,3 @@ addons:
       secure: $SONAR_TOKEN 
     github_token:
       secure: $GITHUB_READ_REPO
-install:
-    - travis_retry nuget restore -source "https://www.nuget.org/api/v2" TestTravis.sln
-script:
-    - xbuild TestTravis.sln
-    - sonar-scanner
