@@ -6,7 +6,7 @@ using System.Text;
 
 namespace TestTravis
 {
-    class Class1
+    public class Class1
     {
         int oui;
         public Class1()
