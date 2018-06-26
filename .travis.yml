@@ -12,5 +12,4 @@ install:
   - nuget restore TestTravis.sln
 script:
   - xbuild /p:Configuration=Release TestTravis.sln
-  - git fetch --unshallow
   - sonar-scanner

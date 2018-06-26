@@ -13,14 +13,14 @@ namespace TestTravis
         {
             Class1 class1 = new Class1();
             if (args.Length == 3)
-                Console.WriteLine("Mes couilles en string");
+                Console.WriteLine("sdqsjhdkqjs");
                 return;
         }
 
         static void fonctionQuiSertArien()
         {
-            Console.WriteLine("Tu m'attrapera jamais gros pd de merde");
-            Console.WriteLine("Tu m'attrapera jamais gros pd de merde");
+            Console.WriteLine("aaaaaa");
+            Console.WriteLine("aaaaaa");
         }
     }
 }
