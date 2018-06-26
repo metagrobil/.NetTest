@@ -13,4 +13,5 @@ addons:
 install:
   - nuget restore TestTravis.sln
 script:
+  - dotnet restore
   - xbuild /p:Configuration=Release TestTravis.sln
