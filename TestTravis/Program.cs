@@ -8,6 +8,7 @@ namespace TestTravis
 {
     class Program
     {
+        public int i;
         static void Main(string[] args)
         {
             Class1 class1 = new Class1();
@@ -19,10 +20,6 @@ namespace TestTravis
         static void fonctionQuiSertArien()
         {
             Console.WriteLine("Tu m'attrapera jamais gros pd de merde");
-            Console.WriteLine("Tu m'attrapera jamais gros pd de merde");
-        }
-        static int fonctionQuiSertArien2()
-        {
             Console.WriteLine("Tu m'attrapera jamais gros pd de merde");
         }
     }
