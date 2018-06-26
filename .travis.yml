@@ -13,4 +13,4 @@ install:
 script:
   - xbuild /p:Configuration=Release TestTravis.sln
   - git fetch --unshallow
-  - sonar-scanner
+  - sonar-scanner-MSBuild
