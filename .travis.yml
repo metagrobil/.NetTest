@@ -8,3 +8,7 @@ addons:
       secure: $SONAR_TOKEN 
     github_token:
       secure: $GITHUB_READ_REPO
+install:
+  - nuget restore TestTravis.sln
+script:
+  - xbuild /p:Configuration=Release TestTravis.sln
