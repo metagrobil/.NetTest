@@ -6,6 +6,8 @@ addons:
     organization: "travcsharp"
     token:
       secure: $SONAR_TOKEN 
+    github_token:
+      secure: $GITHUB_READ_REPO
 script:
   # other script steps might be done before running the actual analysis
   - sonar-scanner
