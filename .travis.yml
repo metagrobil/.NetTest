@@ -4,7 +4,8 @@ dist: trusty
 addons:
   sonarcloud:
     organization: "travcsharp"
-    token: 838b6603b1d7d10cf4f54bfa1080b624d81b606e
+    token:
+      secure: $SONAR_TOKEN 
 script:
   # other script steps might be done before running the actual analysis
   - sonar-scanner
