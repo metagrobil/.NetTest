@@ -14,6 +14,7 @@ namespace TestTravis.subfolder
         {
             Console.Write("Class1");
             Console.Write("Class1");
+            Console.Write("Class1");
             File.ReadAllLines("fdfs.txt");
             i = +1;
         }
